@@ -13,18 +13,20 @@ $('.time-block').each(function () {
     } else if (hourSlot === currentTime) {
         $(this).addClass("present");
     };
+
 })
 
 
 
 // save task to hour it has been assigned to
-var saveTask = $()
-var hourTaskEl = $('input[name="hour-input"]');
+
 function handleSaveTask (event) {
     event.preventDefault();
-    var task = hourTaskEl.val();
+    var taskEl = $(this).siblings(".time-block").val();
+
+    var hourEl = $(this).siblings(".time-block").attr("id");
+
+    localStorage.setItem(hourEl, taskEl);
 }
 
-$('button').on('click', function() {
-
-})
+$(document).on('click', ".btn", handleSaveTask);
