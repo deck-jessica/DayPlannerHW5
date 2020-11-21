@@ -1,3 +1,8 @@
+//when page loads, run this script!
+$(document).ready(function() {
+
+
+
 // displays current planner day and time
 var plannerDay = moment();
 $('#currentDay').text(plannerDay.format("dddd, MMMM Do YYYY, h:mm a"));
@@ -29,4 +34,6 @@ function handleSaveTask (event) {
     localStorage.setItem(hourEl, taskEl);
 }
 
-$(document).on('click', ".btn", handleSaveTask);
+$("button").on('click', handleSaveTask);
+
+});
