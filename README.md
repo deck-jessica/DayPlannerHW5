@@ -19,6 +19,7 @@ This page can be accessed and used to track the user's daily activities, as well
 
 
 ![Day planner main page](/dayplanner.jpg)
+![Day planner with active color coding](/activetimeblocks.png)
 
 
 ## Credits
