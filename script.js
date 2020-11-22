@@ -27,10 +27,10 @@ $('.time-block').each(function () {
 
 function handleSaveTask (event) {
     event.preventDefault();
-    var taskEl = $(this).siblings(".time-block").val();
-
-    var hourEl = $(this).siblings(".time-block").attr("id");
-
+    var taskEl = $(this).siblings(".description").children(".time-block").val();
+console.log(taskEl);
+    var hourEl = $(this).siblings(".description").children(".time-block").attr("id");
+console.log(hourEl);
     localStorage.setItem(hourEl, taskEl);
 }
 

@@ -14,17 +14,16 @@ This project can be viewed and used using any web browser from the link provided
 
 ## Usage 
 
-This page can be accessed and used to "quiz your knowledge' on Javascript basics. Upon entering the site, you will be given a Start button. Once this is clicked, thanks to an eventListener, the timer function will begin and the quiz questions will display one at a time. The quiz length of the timer is 20 seconds per question on the quiz. Once the timer starts, user will use select an answer. If they have selected correctly, the next question will render, and a "right" will display at the bottom of the question box. If they select wrong, 10 seconds will be deducted from the time left, and "wrong" will display at the bottom of the quiz. The quiz will continue until the questions have been exhausted or time runs out. At the conclusion of the quiz, the user will be prompted to enter their name to be stored in the high score section. Their score is a compliation of the correct answers from the quiz.  
+This page can be accessed and used to track the user's daily activities, as well as highlight the current time and task that should be worked on! Upon loading the web application, the current day and time are shown at the top, and dependent upon the time of entry, past tasks/hour blocks will be shown in gray, present tasks shown in red, and future tasks shown in green. Upon entering a task, it will be stored to the page, and persist upon refresh. Users can input their own tasks and see them planned out in hour chunks of time, and not lose their work if they navigate away. Upon each refresh, the time will update. 
 
 
 
-![Coding Quiz Begin](/quizbegin.jpg)
-![Coding Quiz Question](/questionquiz.jpg)
-![Finish Quiz](/winnerquiz.jpg)
+![Day planner main page](/dayplanner.jpg)
+
 
 ## Credits
 
-I used my Bootcamp course materials, and some minor help from my classmates and LAs. I also relied on some Youtube videos for ideas on how to set up the random functions and timers, and found some assistance during the last minute hours before the project was due from some amazing LAs within the BootCamp.
+I used my Bootcamp course materials, and some minor help from my classmates and LAs. I also went through Stack Overflow examples, used Bootstrap hacks for the layout, and found some assistance during the last minute hours before the project was due from some amazing LAs within the BootCamp.
 
 
 
